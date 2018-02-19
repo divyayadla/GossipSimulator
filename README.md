@@ -27,8 +27,11 @@ Push-Sum algorithm
 The actual network topology plays a critical role in the dissemination speed of Gossip protocols. As part of this project you have to experiment with various topologies. The topology determines who is considered a neighboor in the above algorithms.
 
 • Full Network Every actor is a neighboor of all other actors. That is, every actor can talk directly to any other actor.
+
 • 2D Grid Actors form a 2D grid. The actors can only talk to the grid neigboors.
+
 • Line: Actors are arranged in a line. Each actor has only 2 neighboors (one left and one right, unless you are the first or last actor).
+
 • Imperfect 2D Grid Grid arrangement but one random other neighboor is selected from the list of all actors (4+1 neighboors).
 
 ## Installation
